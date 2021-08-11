@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.1000" tests="13" failures="0">
+  <testsuite name="Root Suite" timestamp="2021-02-18T17:20:05" tests="0" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="delete" timestamp="2021-02-18T17:20:05" tests="0" file="/home/danielj/Sandbox/PERSONAL/qaninja-node/node/final/api/test/delete.spec.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="quando apago uma tarefa" timestamp="2021-02-18T17:20:05" tests="1" file="/home/danielj/Sandbox/PERSONAL/qaninja-node/node/final/api/test/delete.spec.js" time="0.0230" failures="0">
+    <testcase name="delete quando apago uma tarefa deve retornar um status 200" time="0.0230" classname="deve retornar um status 200">
+    </testcase>
+  </testsuite>
+  <testsuite name="quando a tarefa não existe" timestamp="2021-02-18T17:20:05" tests="1" file="/home/danielj/Sandbox/PERSONAL/qaninja-node/node/final/api/test/delete.spec.js" time="0.0040" failures="0">
+    <testcase name="delete quando a tarefa não existe deve retornar um status 404" time="0.0040" classname="deve retornar um status 404">
+    </testcase>
+  </testsuite>
+  <testsuite name="get" timestamp="2021-02-18T17:20:05" tests="0" file="/home/danielj/Sandbox/PERSONAL/qaninja-node/node/final/api/test/get.spec.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="quando existe uma tarefa cadastrada" timestamp="2021-02-18T17:20:05" tests="2" file="/home/danielj/Sandbox/PERSONAL/qaninja-node/node/final/api/test/get.spec.js" time="0.0140" failures="0">
+    <testcase name="get quando existe uma tarefa cadastrada deve retornar uma lista" time="0.0080" classname="deve retornar uma lista">
+    </testcase>
+    <testcase name="get quando existe uma tarefa cadastrada deve filtrar pelo titulo" time="0.0060" classname="deve filtrar pelo titulo">
+    </testcase>
+  </testsuite>
+  <testsuite name="quando busco por um id" timestamp="2021-02-18T17:20:05" tests="1" file="/home/danielj/Sandbox/PERSONAL/qaninja-node/node/final/api/test/get.spec.js" time="0.0060" failures="0">
+    <testcase name="get quando busco por um id deve retornar uma unica tarefa" time="0.0060" classname="deve retornar uma unica tarefa">
+    </testcase>
+  </testsuite>
+  <testsuite name="quando a tarefa não existe" timestamp="2021-02-18T17:20:05" tests="1" file="/home/danielj/Sandbox/PERSONAL/qaninja-node/node/final/api/test/get.spec.js" time="0.0040" failures="0">
+    <testcase name="get quando a tarefa não existe deve retornar o status 404" time="0.0040" classname="deve retornar o status 404">
+    </testcase>
+  </testsuite>
+  <testsuite name="post" timestamp="2021-02-18T17:20:05" tests="0" file="/home/danielj/Sandbox/PERSONAL/qaninja-node/node/final/api/test/post.spec.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="quando cadastrar uma tarefa" timestamp="2021-02-18T17:20:05" tests="2" file="/home/danielj/Sandbox/PERSONAL/qaninja-node/node/final/api/test/post.spec.js" time="0.0250" failures="0">
+    <testcase name="post quando cadastrar uma tarefa deve retornar o status 200" time="0.0190" classname="deve retornar o status 200">
+    </testcase>
+    <testcase name="post quando cadastrar uma tarefa e disparar um email" time="0.0060" classname="e disparar um email">
+    </testcase>
+  </testsuite>
+  <testsuite name="quando o titulo não é informado" timestamp="2021-02-18T17:20:05" tests="1" file="/home/danielj/Sandbox/PERSONAL/qaninja-node/node/final/api/test/post.spec.js" time="0.0050" failures="0">
+    <testcase name="post quando o titulo não é informado deve retornar o status 400" time="0.0050" classname="deve retornar o status 400">
+    </testcase>
+  </testsuite>
+  <testsuite name="quando o owner não é informado" timestamp="2021-02-18T17:20:05" tests="1" file="/home/danielj/Sandbox/PERSONAL/qaninja-node/node/final/api/test/post.spec.js" time="0.0030" failures="0">
+    <testcase name="post quando o owner não é informado deve retornar o status 400" time="0.0030" classname="deve retornar o status 400">
+    </testcase>
+  </testsuite>
+  <testsuite name="quando o titulo é já existe" timestamp="2021-02-18T17:20:05" tests="1" file="/home/danielj/Sandbox/PERSONAL/qaninja-node/node/final/api/test/post.spec.js" time="0.0050" failures="0">
+    <testcase name="post quando o titulo é já existe deve retornar o status 409" time="0.0050" classname="deve retornar o status 409">
+    </testcase>
+  </testsuite>
+  <testsuite name="put" timestamp="2021-02-18T17:20:05" tests="0" file="/home/danielj/Sandbox/PERSONAL/qaninja-node/node/final/api/test/put.spec.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="quando alterar uma tarefa" timestamp="2021-02-18T17:20:05" tests="2" file="/home/danielj/Sandbox/PERSONAL/qaninja-node/node/final/api/test/put.spec.js" time="0.0110" failures="0">
+    <testcase name="put quando alterar uma tarefa deve retornar um status 200" time="0.0080" classname="deve retornar um status 200">
+    </testcase>
+    <testcase name="put quando alterar uma tarefa deve retornar dados atualizados" time="0.0030" classname="deve retornar dados atualizados">
+    </testcase>
+  </testsuite>
+</testsuites>
